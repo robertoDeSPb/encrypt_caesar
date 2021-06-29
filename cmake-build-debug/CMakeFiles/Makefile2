@@ -92,12 +92,12 @@ clean: CMakeFiles/encrypt_caesar.dir/clean
 CMakeFiles/encrypt_caesar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypt_caesar.dir\build.make CMakeFiles/encrypt_caesar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypt_caesar.dir\build.make CMakeFiles/encrypt_caesar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\c++\Home Task 11\encrypt_caesar\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target encrypt_caesar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\c++\Home Task 11\encrypt_caesar\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target encrypt_caesar"
 .PHONY : CMakeFiles/encrypt_caesar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/encrypt_caesar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++\Home Task 11\encrypt_caesar\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++\Home Task 11\encrypt_caesar\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/encrypt_caesar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++\Home Task 11\encrypt_caesar\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/encrypt_caesar.dir/rule

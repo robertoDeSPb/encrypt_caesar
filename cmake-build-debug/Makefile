@@ -168,33 +168,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypt_caesar.dir\build.make CMakeFiles/encrypt_caesar.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-task1/task1.obj: task1/task1.cpp.obj
-
-.PHONY : task1/task1.obj
-
-# target to build an object file
-task1/task1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypt_caesar.dir\build.make CMakeFiles/encrypt_caesar.dir/task1/task1.cpp.obj
-.PHONY : task1/task1.cpp.obj
-
-task1/task1.i: task1/task1.cpp.i
-
-.PHONY : task1/task1.i
-
-# target to preprocess a source file
-task1/task1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypt_caesar.dir\build.make CMakeFiles/encrypt_caesar.dir/task1/task1.cpp.i
-.PHONY : task1/task1.cpp.i
-
-task1/task1.s: task1/task1.cpp.s
-
-.PHONY : task1/task1.s
-
-# target to generate assembly for a file
-task1/task1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\encrypt_caesar.dir\build.make CMakeFiles/encrypt_caesar.dir/task1/task1.cpp.s
-.PHONY : task1/task1.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -207,9 +180,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... task1/task1.obj
-	@echo ... task1/task1.i
-	@echo ... task1/task1.s
 .PHONY : help
 
 

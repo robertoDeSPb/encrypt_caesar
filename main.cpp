@@ -28,8 +28,10 @@ std::string encrypt_caesar(std::string string, int codeNumber) {
     return string;
 }
 
-std::string decrypt_caesar(std::string encrypt_caesar, int codeNumber) {
-    return encrypt_caesar;
+std::string decrypt_caesar(std::string string, int codeNumber) {
+    std::string decrypt = encrypt_caesar(string, codeNumber);
+    decrypt = encrypt_caesar(decrypt, -codeNumber);
+    return decrypt;
 }
 
 int main() {

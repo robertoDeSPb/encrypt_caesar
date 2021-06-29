@@ -3,5 +3,3 @@
 
 CMakeFiles/encrypt_caesar.dir/main.cpp.obj: ../main.cpp
 
-CMakeFiles/encrypt_caesar.dir/task1/task1.cpp.obj: ../task1/task1.cpp
-
