@@ -29,8 +29,7 @@ std::string encrypt_caesar(std::string string, int codeNumber) {
 }
 
 std::string decrypt_caesar(std::string string, int codeNumber) {
-    std::string decrypt = encrypt_caesar(string, codeNumber);
-    decrypt = encrypt_caesar(decrypt, -codeNumber);
+    std::string decrypt = encrypt_caesar(string, -codeNumber);
     return decrypt;
 }
 
@@ -45,6 +44,6 @@ int main() {
 
     std::cout << encrypt_caesar(str, codeNumber) << "\n";
 
-    std::cout << decrypt_caesar(str, codeNumber) << "\n";
+    std::cout << decrypt_caesar(encrypt_caesar(str, codeNumber), codeNumber) << "\n";
 
 }
